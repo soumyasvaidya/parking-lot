@@ -8,7 +8,7 @@ The code follows a modular design pattern and uses inheritance and abstraction t
 
 ## Features
 
-- Supports different vehicle types (e.g., Car, Bike)
+- Supports different vehicle types (e.g., Car, Bus)
 - Different parking slot types corresponding to vehicle types
 - Assigns parking slots dynamically based on vehicle type
 - Basic management of parking lot slots and their availability
@@ -42,7 +42,7 @@ The system consists of these main classes:
 
 - **ParkingSlot (abstract)**  
   Base class for all parking slots with a unique slot ID and availability status.  
-  Subclasses include `CarParkingSlot`, `BikeParkingSlot`, etc.
+  Subclasses include `CarParkingSlot`, `BusParkingSlot`, etc.
 
 - **ParkingLot**  
   Manages a collection of parking slots. Responsible for assigning and releasing slots.
