@@ -31,7 +31,7 @@ The code follows a modular design pattern and uses inheritance and abstraction t
 
 ### Use Case Diagram
 
-![Use Case Diagram](./docs/usecase.png)
+![Use Case Diagram](./docs/usecase.drawio.png)
 
 ## Class Diagram
 
